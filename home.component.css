@@ -1,0 +1,197 @@
+.background {
+  background-image: url('/Angular/newangular/src/assets/image/NHS.jpg');
+  
+   
+    /* background-color: aquamarine; */
+    background-repeat: no-repeat;
+    /* Additional background properties can be set here */
+
+  }
+
+
+h1.dbe-start-title.text-uppercase.headline {
+    font-size: 1.25rem;
+    height: 6px;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: .0125rem;
+    background-color: transparent;
+}
+
+
+
+h1.dbe-start-title.text-center.text-uppercase.headline {
+  color: white;
+  margin-top: 33px;
+  font-size: 14px;
+}
+h1.dbe-start-title.text-center.text-uppercase.headline:hover{color: #e9e9e9;}
+
+
+.v-card__subtitle.text-center.subtitle-1.pb-4:hover{color:grey}
+
+
+
+.container, .container-lg, .container-md, .container-sm {
+  max-width: 800px;
+  margin-top: 63px;
+  height: 10px;
+  font-size: 10px;
+}
+.card-details {
+  text-align: center!important;
+    height: 10px;
+   
+
+}
+
+.card wrapper {
+  column-gap: 1px;
+  width: 5rem;
+
+}
+
+.box {
+  display:flex;
+  align-items: center;
+}
+
+
+element.style {
+  color: white;
+  height: 15px;
+  font-weight: 700;
+}
+
+.dbe-start-title.text-uppercase.headline{
+  color: #e9e9e9;
+}
+
+.dbe-start-title.headline:hover{color: grey}
+
+
+button.dbe-header-btn.mr-4.v-btn.v-btn--flat.v-btn--text.theme--light.v-size--default{
+  padding:right=100px;
+}
+
+.background {
+
+  padding: 10px;
+  display: flex; /* Use flexbox to create a horizontal layout */
+  justify-content: space-between; /* Distribute elements evenly */
+  align-items: center; /* Align elements vertically */
+}
+
+.dbe-start-title {
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  margin: 0;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content a {
+  float: none;
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  color: white
+}
+
+.right {
+  display: flex;
+}
+
+.right select {
+  background: transparent;
+}
+
+.dropbtn::after {
+  content: "\25BE"; /* Unicode character for down-arrow (▾) */
+  font-size: 10px;
+  margin-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+img.card-img-top:hover{color:red} 
+
+.navbar {
+  margin-inline: 10px;
+  color:white;
+}
+
+.right {
+  font-display: white-space ;
+  color:white
+}
+
+.v-stepper__label {
+
+text-shadow: 0 0 0 #520fab;
+}
+
+hr.v-divider.theme--light {
+  border-color: red;
+  width: 258px;
+}
+
+.select {
+  border: 0;
+}
+
+.select {
+  color: white;
+}
+
+.right[_ngcontent-ify-c17] select[_ngcontent-ify-c17] {
+  background: transparent;
+  border: 0;
+}
+

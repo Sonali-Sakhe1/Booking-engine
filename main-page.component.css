@@ -1,0 +1,13 @@
+.background {
+    background-image: url('/newangular/src/assets/image/image.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* /* Additional styles can be added here, such as background-size, background-repeat, background-position, etc. */
+}
+  h6{
+    color: aliceblue;
+  }
+  .card{
+    margin-top: 142px;
+  }

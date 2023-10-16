@@ -1,0 +1,18 @@
+.background {
+    background-image: url('../assets/image/image.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* Additional styles can be added here, such as background-size, background-repeat, background-position, etc. */
+ } */
+  .card{
+    margin-top: 142px;
+  } 
+  
+body{
+  overflow-x: none;
+}
+
+
+
+

@@ -1,0 +1,81 @@
+<div class="style color: #eaeef0;font-size: 10px; padding-inline=10px;"></div>
+The Maryalbone Hotel
+<div class="style color: #eaeef0;font-size: 10px;">
+  <div class="container">
+    <div class="row">
+      <div class="navbar">
+        <div class="v-stepper__label" style="color:white; font-size: 15px;">Date</div>
+        <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+        <!-- <span class="v-stepper__step__step primary">2</span> -->
+        <div class="v-stepper__label" style="color:white;font-size: 15px;">Room</div>
+        <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+        <!-- <span class="v-stepper__step__step primary">3</span> -->
+        <div class="v-stepper__label" style="color:white;font-size: 15px;">Service</div>
+        <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+        <!-- <span class="v-stepper__step__step primary">4</span> -->
+        <div class="v-stepper__label" style="color:white;font-size: 15px;">Booking</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <div class="card-title text-center">Book Now</div>
+      <h5 class="card-title text-center" style="color: grey;font-size: 10px;">Best Price Guarantee</h5>
+      <div class="v-icon notranslate mdi mdi-information-outline theme--light grey--text text--lighten-1"></div>
+
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 subcontent1">
+              <div class="card-body">
+                <p>check-in</p>
+              </div>
+
+            </div>
+
+            <div class="col-md-6 subcontent2">
+              <div class="card-body">
+                <p>check-out</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="select-section">
+          <select name="users">
+            <option value="">1 Room Two adults</option>
+            <option value="2">No Of Rooms</option>
+            <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+            <div></div>
+
+          </select>
+        </div>
+      </div>
+      <div>
+
+        <!-- <select name="users" [(ngModel)]="selectedRoom">
+          <option [value]="item.roomName" *ngFor="let item of roomsList.HotelDetails[0].rooms">{{ item.roomName + item.roomSize }}</option>>
+        </select> -->
+
+      </div>
+      <div class="subcontent3">
+        <button routerLink="/room" class="btn btn-dark next-section" >Next</button>
+
+      </div>
+      <button style="margin-left: 106px; width: 47px; margin-top: 15px; border:0; border-radius: 0;" (click)="onClick()">Back</button>
+      <!-- <a class="back-button" href="javascript:history.back()">Back</a> -->
+
+    </div>
+    <!-- 
+  <h1>Get Method</h1>
+  <p>{{getJsonValue | json}}</p>
+   -->
+    
+<!-- <div>
+  <h2>Hotels</h2>
+  <div *ngFor="let room of rooms">
+     <p>{{ room.description }}</p>
+  </div>
+</div> -->

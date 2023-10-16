@@ -1,0 +1,101 @@
+.card {
+    /* border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 300px; */
+    width: 100rem;
+    margin-top: 130px;
+    
+    margin-left: 350px;
+    height: 220px;
+    background-color: #eee;
+ }
+
+
+.subcontent1 p{margin:0;}
+
+.col-md-6.subcontent1{background-color: #fff;}
+.col-md-6.subcontent1:hover {
+  background: #eee;
+}
+
+.subcontent2 p{margin:0;}
+
+.col-md-6.subcontent2{background-color: #fff;}
+.col-md-6.subcontent2:hover {
+  background: #eee;
+}
+  .subcontent3 p{
+  width: 22rem; 
+  margin-top: 20px; 
+  margin-left:-15px
+  
+}
+.subcontent3 button.btn.btn-dark.next-section{width: 100%;
+  margin-left: -18px;
+  min-width: 289px;
+  color: #ffff;
+  margin-top: 20px;
+  background-color: #212529;
+  width:webkit-fill-available;
+}
+
+  .select-section select {margin-top: 12px;width: 261px;}
+  .select-section select {
+    margin-top: 12px;
+    width: 258px;
+    font-size: 10px;
+    border: 0;
+    margin-left: -2px;
+    padding: 10px 0;
+}
+.h1.dbe-start-title.text-center.text-uppercase.headline[_ngcontent-mtu-c17]:hover{background-color: #c4c4c4;}
+
+.v-stepper__label:hover{background-color: grey;
+} 
+ 
+.button.btn.btn-dark.next-section:hover.btn.btn-dark.next-section:hover{background-color: #fb1313;}
+
+hr.v-divider.theme--light {
+  border-color: grey;
+  width: 258px;
+}
+
+.nextsection{
+  border: none;
+  border-radius: 0;
+}
+
+.button.next-section{
+ 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none; /* Set border to none */
+    border-radius: 4px;
+    button-focus { outline: none; }
+    font-size: 11px;
+
+    
+
+}
+
+
+hr.v-divider.theme--light[_ngcontent-wpj-c20] {
+  border-color: grey;
+  width: 200px;
+}
+
+
+select {
+  width: 260px;
+  border-color: white;
+  margin-left: -3px;
+  font-size: 9px;
+}
+
+
+

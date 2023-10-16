@@ -1,0 +1,103 @@
+<a target="_blank"></a>
+
+<body ng-app="myApp"></body>
+
+<div ng-view></div>
+<div class="background">
+  <div style=" 
+  line-height: 2rem;
+  letter-spacing: .0125em;">
+    The Maryalbone Hotel
+    <div class="background">
+      <div class="container">
+        <div class="row">
+          <div class="navbar">
+            <span class="v-stepper__step__step primary"><span aria-hidden="true"
+                class="v-icon notranslate v-icon--svg theme--light"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" height="24" width="24" role="img" aria-hidden="true">
+                  <path
+                    d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z">
+                  </path>
+                </svg></span></span>
+            <div class="v-stepper__label" style="color:black; font-size: 15px;">Date</div>
+            <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+            <span class="v-stepper__step__step primary">2</span>
+            <div class="v-stepper__label" style="color:black;font-size: 15px;">Room</div>
+            <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+            <span class="v-stepper__step__step primary">3</span>
+            <div class="v-stepper__label" style="color:black;font-size: 15px;">Service</div>
+            <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+            <span class="v-stepper__step__step primary">4</span>
+            <div class="v-stepper__label" style="color:black;font-size: 15px;">Booking</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div>
+  <h2>Hotel Rooms</h2>
+ *ngFor="let item of roomsList.HotelDetails[0].rooms">{{ item.roomName + item.roomSize }}
+  </div>
+</div> -->
+
+
+    <div class="content">
+      <div class="background-room">
+        <div class="row">
+          <div class="card-title text-center" style="color: black;font-size: 15px; margin-left: -54px;">Select Your Room
+          </div>
+          <div class="text-center text-uppercase headline" style="color:black;font-size: 13px; margin-left: -57px">Get
+            the discounted services</div>
+          <div class=" text-center text-uppercase headline" style="color: black;font-size:10px; margin-left: -65px">
+            Request: 1 room, 2 guest</div>
+
+          <div class="col-4" *ngFor="let item of roomsName.HotelDetails[0].rooms">
+
+            <div class="cointainer fluid"></div>
+            <img style="height: 130px; width: 257px;" class="card-img-top" src="../assets//image/bed1.jpg"
+              alt="Card image">
+            <div class="card" style="margin: top 200px; width:250px">
+              <div>
+              </div>
+              <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+              <form class="example" action="action_page.php">
+              </form>
+              <div class="card-body">
+                <div class="v-card__title" style="font-size:15px;">{{ item.roomName }}</div>
+                
+                <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
+                <div class="v-card__subtitle pr-0" style="font-size: 8px">Capacity: {{ item.maxCapacity}}  Adult {{item.maxAdult}}/ Child {{item.maxChild}}/ Occupany {{item.maxOccupancy}}
+                </div>
+              </div>
+              <div>
+                <small class="caption" style="font-size:10px">1 night</small>
+                <div class="title primary--text"><!----> {{'$' + item.price.actual}} </div>
+                <span class="v-tooltip v-tooltip--bottom"></span>
+                <span class="caption" style="font-size:9px">Best price guarantee</span>
+              </div>
+              <div class="form-group">
+                <div class="form-control">
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" value="male" style="font-size:10px" ngModel>
+                    Non Refundable Rate
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" value="female" style="font-size:10px" ngModel>
+                    Flexible Rate
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subcontent3">
+          <div style="display: flex; justify-content: text-align=center; margin-left:346px;"></div>
+          <span class="v-btn__content" style="margin-left:335px; " routerLink="/home">Back</span>
+          <button type="button" class="v-btn v-btn--contained v-btn--disabled theme--light v-size--large"
+            disabled="disabled"><span class="v-btn__content" routerLink="/service"> Continue </span></button>
+        </div>
+      </div>
